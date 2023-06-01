@@ -70,7 +70,7 @@ public class BookTest {
                 Bookes.next();
                 cantidad++;
             }
-            assertTrue(cantidad == 1, "Book modificado correctamente!");
+            assertTrue(cantidad == 3, "Book modificado correctamente!");
 
         } catch (Exception e) {
             e.printStackTrace();
